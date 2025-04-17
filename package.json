@@ -1,15 +1,16 @@
 {
-    "name": "roblox-rank-bot",
-    "version": "1.0.0",
-    "main": "index.js",
-    "license": "MIT",
-    "scripts": {
-        "start": "node index.js"
-    },
-    "dependencies": {
-        "axios": "^1.6.0",
-        "discord.js": "^14.11.0",
-        "dotenv": "^16.3.1",
-        "node-fetch": "^2.7.0"
-    }
+  "name": "roblox-rank-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that fetches Roblox group rank and avatar info.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Josshimgog",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
 }
